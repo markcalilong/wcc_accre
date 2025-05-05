@@ -1,0 +1,36 @@
+{
+  "name": "wcc-accre-track",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.12.7",
+    "@strapi/plugin-users-permissions": "5.12.7",
+    "@strapi/strapi": "5.12.7",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "f8f50a50-14d6-4f4c-bbba-5ad2d37783fd",
+    "installId": "77d200c916957fb6b355b01cbea92ae9dd8e9d114c37badc6d4628833251c150"
+  }
+}
