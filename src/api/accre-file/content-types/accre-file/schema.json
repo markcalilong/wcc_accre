@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accre_files",
+  "info": {
+    "singularName": "accre-file",
+    "pluralName": "accre-files",
+    "displayName": "accre_file"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "uploaded_file": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
