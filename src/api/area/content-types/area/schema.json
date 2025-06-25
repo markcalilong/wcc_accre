@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "areas",
+  "info": {
+    "singularName": "area",
+    "pluralName": "areas",
+    "displayName": "Area"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "area": {
+      "type": "string"
+    }
+  }
+}

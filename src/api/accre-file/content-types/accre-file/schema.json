@@ -4,18 +4,73 @@
   "info": {
     "singularName": "accre-file",
     "pluralName": "accre-files",
-    "displayName": "accre_file"
+    "displayName": "accre_file",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
+    "uploader": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "isReviewed": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isApproved": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "reviewer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "approver": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "Semester": {
+      "type": "enumeration",
+      "enum": [
+        "First",
+        "Second",
+        "Mid-year"
+      ],
+      "required": true
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year"
+    },
+    "area": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::area.area"
+    },
+    "academic_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-program.academic-program"
+    },
+    "program_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::program.program"
+    },
     "uploaded_file": {
       "allowedTypes": [
         "images",
+        "files",
         "videos",
-        "audios",
-        "files"
+        "audios"
       ],
       "type": "media",
       "multiple": false,

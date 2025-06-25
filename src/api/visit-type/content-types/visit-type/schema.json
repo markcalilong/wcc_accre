@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visit_types",
+  "info": {
+    "singularName": "visit-type",
+    "pluralName": "visit-types",
+    "displayName": "Visit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "visitType": {
+      "type": "string"
+    }
+  }
+}

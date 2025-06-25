@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academic_programs",
+  "info": {
+    "singularName": "academic-program",
+    "pluralName": "academic-programs",
+    "displayName": "Academic Program"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "programCode": {
+      "type": "string"
+    },
+    "programDesc": {
+      "type": "string"
+    }
+  }
+}

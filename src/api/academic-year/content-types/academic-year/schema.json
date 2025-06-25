@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academic_years",
+  "info": {
+    "singularName": "academic-year",
+    "pluralName": "academic-years",
+    "displayName": "Academic Year"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "schoolyear": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
