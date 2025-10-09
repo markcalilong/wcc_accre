@@ -428,71 +428,10 @@ export interface ApiAcademicYearAcademicYear
   };
 }
 
-export interface ApiAccreFileAccreFile extends Struct.CollectionTypeSchema {
-  collectionName: 'accre_files';
-  info: {
-    description: '';
-    displayName: 'accre_file';
-    pluralName: 'accre-files';
-    singularName: 'accre-file';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    academic_program: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-program.academic-program'
-    >;
-    academic_year: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-year.academic-year'
-    >;
-    approver: Schema.Attribute.Relation<
-      'oneToOne',
-      'plugin::users-permissions.user'
-    >;
-    area: Schema.Attribute.Relation<'oneToOne', 'api::area.area'>;
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    isApproved: Schema.Attribute.Boolean &
-      Schema.Attribute.Required &
-      Schema.Attribute.DefaultTo<false>;
-    isReviewed: Schema.Attribute.Boolean &
-      Schema.Attribute.Required &
-      Schema.Attribute.DefaultTo<false>;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::accre-file.accre-file'
-    > &
-      Schema.Attribute.Private;
-    program_type: Schema.Attribute.Relation<'oneToOne', 'api::program.program'>;
-    publishedAt: Schema.Attribute.DateTime;
-    reviewer: Schema.Attribute.Relation<
-      'oneToOne',
-      'plugin::users-permissions.user'
-    >;
-    Semester: Schema.Attribute.Enumeration<['First', 'Second', 'Mid-year']> &
-      Schema.Attribute.Required;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    uploaded_file: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
-    > &
-      Schema.Attribute.Required;
-    uploader: Schema.Attribute.Relation<
-      'oneToOne',
-      'plugin::users-permissions.user'
-    >;
-  };
-}
-
 export interface ApiAreaArea extends Struct.CollectionTypeSchema {
   collectionName: 'areas';
   info: {
+    description: '';
     displayName: 'Area';
     pluralName: 'areas';
     singularName: 'area';
@@ -502,13 +441,17 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
   };
   attributes: {
     area: Schema.Attribute.String;
+    areaCriteria: Schema.Attribute.Component<'criteria.criteria', true>;
+    areaDesc: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::area.area'> &
       Schema.Attribute.Private;
+    proposedExhibits: Schema.Attribute.Text;
     publishedAt: Schema.Attribute.DateTime;
+    remarks: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1088,7 +1031,6 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::academic-program.academic-program': ApiAcademicProgramAcademicProgram;
       'api::academic-year.academic-year': ApiAcademicYearAcademicYear;
-      'api::accre-file.accre-file': ApiAccreFileAccreFile;
       'api::area.area': ApiAreaArea;
       'api::program.program': ApiProgramProgram;
       'api::visit-type.visit-type': ApiVisitTypeVisitType;

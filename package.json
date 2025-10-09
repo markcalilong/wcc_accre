@@ -7,8 +7,8 @@
     "build": "strapi build",
     "console": "strapi console",
     "deploy": "strapi deploy",
-    "dev": "strapi develop",
-    "develop": "copy .env.example.dev .env && strapi develop",
+    "localdev": "copy .env.example.dev .env && strapi develop",
+    "develop": "copy .env.example .env && strapi develop",
     "start": "strapi start",
     "strapi": "strapi",
     "upgrade": "npx @strapi/upgrade latest",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.7",
+    "@strapi/plugin-documentation": "^5.27.0",
     "@strapi/plugin-users-permissions": "5.12.7",
     "@strapi/strapi": "5.12.7",
     "pdf-merger-js": "^5.1.2",

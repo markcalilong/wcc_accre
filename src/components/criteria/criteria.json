@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_criteria_criteria",
+  "info": {
+    "displayName": "Criteria",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "criteriaUploads": {
+      "displayName": "Criteria Uploads",
+      "type": "component",
+      "repeatable": true,
+      "component": "uploads.criteria-uploads"
+    },
+    "subcriteria": {
+      "displayName": "Subcriteria",
+      "type": "component",
+      "repeatable": true,
+      "component": "subcriteria.subcriteria"
+    }
+  }
+}
