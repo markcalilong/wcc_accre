@@ -4,13 +4,29 @@
   "info": {
     "singularName": "area",
     "pluralName": "areas",
-    "displayName": "Area"
+    "displayName": "Area",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
     "area": {
+      "type": "string"
+    },
+    "areaDesc": {
+      "type": "string"
+    },
+    "areaCriteria": {
+      "displayName": "Criteria",
+      "type": "component",
+      "repeatable": true,
+      "component": "criteria.criteria"
+    },
+    "proposedExhibits": {
+      "type": "text"
+    },
+    "remarks": {
       "type": "string"
     }
   }

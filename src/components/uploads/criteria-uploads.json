@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_uploads_criteria_uploads",
+  "info": {
+    "displayName": "Criteria Uploads",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fileUpload": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "uploader": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "fileStatus": {
+      "type": "enumeration",
+      "enum": [
+        "On-going Review",
+        "Reviewed",
+        "Approved",
+        "Declined"
+      ]
+    },
+    "approver": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "fileName": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}

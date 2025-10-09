@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_uploads_subcriteria_uploads",
+  "info": {
+    "displayName": "Subcriteria Uploads"
+  },
+  "options": {},
+  "attributes": {
+    "fileName": {
+      "type": "string"
+    },
+    "fileUpload": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "uploader": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "fileStatus": {
+      "type": "enumeration",
+      "enum": [
+        "On-going Review",
+        "Reviewed",
+        "Approved",
+        "Declined"
+      ]
+    },
+    "approver": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "remarks": {
+      "type": "text"
+    }
+  }
+}
