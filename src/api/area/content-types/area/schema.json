@@ -28,6 +28,16 @@
     },
     "remarks": {
       "type": "string"
+    },
+    "academic_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-program.academic-program"
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year"
     }
   }
 }
