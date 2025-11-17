@@ -15,7 +15,7 @@
       "type": "string"
     },
     "areaDesc": {
-      "type": "string"
+      "type": "text"
     },
     "areaCriteria": {
       "displayName": "Criteria",

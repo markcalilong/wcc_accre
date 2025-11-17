@@ -442,7 +442,7 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
   attributes: {
     area: Schema.Attribute.String;
     areaCriteria: Schema.Attribute.Component<'criteria.criteria', true>;
-    areaDesc: Schema.Attribute.String;
+    areaDesc: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

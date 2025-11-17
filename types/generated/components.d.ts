@@ -21,12 +21,13 @@ export interface CriteriaCriteria extends Struct.ComponentSchema {
 export interface SubcriteriaSubcriteria extends Struct.ComponentSchema {
   collectionName: 'components_subcriteria_subcriteria';
   info: {
+    description: '';
     displayName: 'Subcriteria';
     icon: 'bulletList';
   };
   attributes: {
     code: Schema.Attribute.String;
-    desc: Schema.Attribute.String;
+    desc: Schema.Attribute.Text;
     subCriteriaUploads: Schema.Attribute.Component<
       'uploads.subcriteria-uploads',
       true
