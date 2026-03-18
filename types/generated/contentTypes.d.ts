@@ -439,7 +439,7 @@ export interface ApiAcademicProgramAcademicProgram
     singularName: 'academic-program';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -469,7 +469,7 @@ export interface ApiAcademicYearAcademicYear
     singularName: 'academic-year';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -498,7 +498,7 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     singularName: 'area';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     academic_program: Schema.Attribute.Relation<
@@ -536,7 +536,7 @@ export interface ApiProgramProgram extends Struct.CollectionTypeSchema {
     singularName: 'program';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -564,7 +564,7 @@ export interface ApiVisitTypeVisitType extends Struct.CollectionTypeSchema {
     singularName: 'visit-type';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;

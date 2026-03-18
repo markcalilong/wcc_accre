@@ -7,8 +7,9 @@
     "displayName": "Academic Program"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "programCode": {
       "type": "string"

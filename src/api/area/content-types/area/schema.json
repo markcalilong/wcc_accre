@@ -8,8 +8,9 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "area": {
       "type": "string"
@@ -18,10 +19,9 @@
       "type": "text"
     },
     "areaCriteria": {
-      "displayName": "Criteria",
       "type": "component",
-      "repeatable": true,
-      "component": "criteria.criteria"
+      "component": "criteria.criteria",
+      "repeatable": true
     },
     "proposedExhibits": {
       "type": "text"

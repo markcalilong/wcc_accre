@@ -7,8 +7,9 @@
     "displayName": "Visit"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "visitType": {
       "type": "string"

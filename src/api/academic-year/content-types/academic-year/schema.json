@@ -7,8 +7,9 @@
     "displayName": "Academic Year"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "schoolyear": {
       "type": "string",
