@@ -11,6 +11,7 @@
   "options": {
     "draftAndPublish": false
   },
+  "pluginOptions": {},
   "attributes": {
     "username": {
       "type": "string",
@@ -75,12 +76,12 @@
     },
     "gender": {
       "type": "enumeration",
+      "required": true,
       "enum": [
         "Male",
         "Female",
         "Rather not say"
-      ],
-      "required": true
+      ]
     },
     "birthDate": {
       "type": "date",
@@ -89,6 +90,11 @@
     "mobileNumber": {
       "type": "string",
       "required": true
+    },
+    "academic_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-program.academic-program"
     }
   }
 }
