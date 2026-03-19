@@ -4,7 +4,8 @@
   "info": {
     "singularName": "academic-program",
     "pluralName": "academic-programs",
-    "displayName": "Academic Program"
+    "displayName": "Academic Program",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false

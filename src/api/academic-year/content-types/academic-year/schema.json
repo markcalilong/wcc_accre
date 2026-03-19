@@ -4,7 +4,8 @@
   "info": {
     "singularName": "academic-year",
     "pluralName": "academic-years",
-    "displayName": "Academic Year"
+    "displayName": "Academic Year",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
