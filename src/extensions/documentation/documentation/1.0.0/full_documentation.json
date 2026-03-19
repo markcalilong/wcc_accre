@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-03-18T14:31:34.621Z"
+    "x-generation-date": "2026-03-19T02:53:12.801Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -4095,14 +4095,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "documentId": {
             "type": "string"
@@ -4129,14 +4122,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -4169,14 +4155,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -4196,14 +4175,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -4217,14 +4189,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -4242,14 +4207,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -4272,14 +4230,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -4290,14 +4241,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -4313,14 +4257,7 @@
                               "type": "object",
                               "properties": {
                                 "id": {
-                                  "oneOf": [
-                                    {
-                                      "type": "string"
-                                    },
-                                    {
-                                      "type": "number"
-                                    }
-                                  ]
+                                  "type": "number"
                                 },
                                 "documentId": {
                                   "type": "string"
@@ -4347,14 +4284,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -4365,14 +4295,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -4388,14 +4311,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -4428,14 +4344,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -4446,14 +4355,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -4469,14 +4371,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -4490,14 +4385,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -4513,14 +4401,7 @@
               "type": "object",
               "properties": {
                 "id": {
-                  "oneOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "number"
-                    }
-                  ]
+                  "type": "number"
                 },
                 "documentId": {
                   "type": "string"
@@ -4547,14 +4428,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -4565,14 +4439,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -4588,14 +4455,7 @@
                     "type": "object",
                     "properties": {
                       "id": {
-                        "oneOf": [
-                          {
-                            "type": "string"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
+                        "type": "number"
                       },
                       "documentId": {
                         "type": "string"
@@ -4697,14 +4557,7 @@
         ],
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "documentId": {
             "type": "string"
@@ -4728,14 +4581,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -4768,14 +4614,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -4795,14 +4634,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -4816,14 +4648,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -4841,14 +4666,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -4871,14 +4689,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -4889,14 +4700,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -4912,14 +4716,7 @@
                               "type": "object",
                               "properties": {
                                 "id": {
-                                  "oneOf": [
-                                    {
-                                      "type": "string"
-                                    },
-                                    {
-                                      "type": "number"
-                                    }
-                                  ]
+                                  "type": "number"
                                 },
                                 "documentId": {
                                   "type": "string"
@@ -4946,14 +4743,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -4964,14 +4754,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -4987,14 +4770,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -5027,14 +4803,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5045,14 +4814,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5068,14 +4830,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5089,14 +4844,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5112,14 +4860,7 @@
               "type": "object",
               "properties": {
                 "id": {
-                  "oneOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "number"
-                    }
-                  ]
+                  "type": "number"
                 },
                 "documentId": {
                   "type": "string"
@@ -5143,14 +4884,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5161,14 +4895,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5184,14 +4911,7 @@
                     "type": "object",
                     "properties": {
                       "id": {
-                        "oneOf": [
-                          {
-                            "type": "string"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
+                        "type": "number"
                       },
                       "documentId": {
                         "type": "string"
@@ -5324,14 +5044,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "documentId": {
             "type": "string"
@@ -5358,14 +5071,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5376,14 +5082,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5407,14 +5106,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5425,14 +5117,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5448,14 +5133,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5481,14 +5159,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5499,14 +5170,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5522,14 +5186,7 @@
               "type": "object",
               "properties": {
                 "id": {
-                  "oneOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "number"
-                    }
-                  ]
+                  "type": "number"
                 },
                 "documentId": {
                   "type": "string"
@@ -5556,14 +5213,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5574,14 +5224,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5604,14 +5247,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5622,14 +5258,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5645,14 +5274,7 @@
                     "type": "object",
                     "properties": {
                       "id": {
-                        "oneOf": [
-                          {
-                            "type": "string"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
+                        "type": "number"
                       },
                       "documentId": {
                         "type": "string"
@@ -5680,27 +5302,13 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "fileUpload": {
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5714,7 +5322,6 @@
               "caption": {
                 "type": "string"
               },
-              "focalPoint": {},
               "width": {
                 "type": "integer"
               },
@@ -5751,14 +5358,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5770,14 +5370,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5803,14 +5396,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5821,14 +5407,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -5844,14 +5423,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -5865,14 +5437,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5892,14 +5457,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5918,14 +5476,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "fileName": {
             "type": "string"
@@ -5934,14 +5485,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -5955,7 +5499,6 @@
               "caption": {
                 "type": "string"
               },
-              "focalPoint": {},
               "width": {
                 "type": "integer"
               },
@@ -5992,14 +5535,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6011,14 +5547,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -6044,14 +5573,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -6062,14 +5584,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -6085,14 +5600,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6106,14 +5614,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -6133,14 +5634,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -6156,14 +5650,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "code": {
             "type": "string"
@@ -6183,14 +5670,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "code": {
             "type": "string"
@@ -6284,14 +5764,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "documentId": {
             "type": "string"
@@ -6315,14 +5788,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -6355,14 +5821,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6382,14 +5841,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -6403,14 +5855,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -6428,14 +5873,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -6458,14 +5896,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -6476,14 +5907,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -6499,14 +5923,7 @@
                               "type": "object",
                               "properties": {
                                 "id": {
-                                  "oneOf": [
-                                    {
-                                      "type": "string"
-                                    },
-                                    {
-                                      "type": "number"
-                                    }
-                                  ]
+                                  "type": "number"
                                 },
                                 "documentId": {
                                   "type": "string"
@@ -6533,14 +5950,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -6551,14 +5961,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -6574,14 +5977,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -6614,14 +6010,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -6632,14 +6021,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -6655,14 +6037,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6676,14 +6051,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -6699,14 +6067,7 @@
               "type": "object",
               "properties": {
                 "id": {
-                  "oneOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "number"
-                    }
-                  ]
+                  "type": "number"
                 },
                 "documentId": {
                   "type": "string"
@@ -6730,14 +6091,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6748,14 +6102,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6771,14 +6118,7 @@
                     "type": "object",
                     "properties": {
                       "id": {
-                        "oneOf": [
-                          {
-                            "type": "string"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
+                        "type": "number"
                       },
                       "documentId": {
                         "type": "string"
@@ -6874,14 +6214,7 @@
         "type": "object",
         "properties": {
           "id": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "number"
-              }
-            ]
+            "type": "number"
           },
           "documentId": {
             "type": "string"
@@ -6905,14 +6238,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -6945,14 +6271,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -6972,14 +6291,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -6993,14 +6305,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -7018,14 +6323,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -7048,14 +6346,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -7066,14 +6357,7 @@
                             "type": "object",
                             "properties": {
                               "id": {
-                                "oneOf": [
-                                  {
-                                    "type": "string"
-                                  },
-                                  {
-                                    "type": "number"
-                                  }
-                                ]
+                                "type": "number"
                               },
                               "documentId": {
                                 "type": "string"
@@ -7089,14 +6373,7 @@
                               "type": "object",
                               "properties": {
                                 "id": {
-                                  "oneOf": [
-                                    {
-                                      "type": "string"
-                                    },
-                                    {
-                                      "type": "number"
-                                    }
-                                  ]
+                                  "type": "number"
                                 },
                                 "documentId": {
                                   "type": "string"
@@ -7123,14 +6400,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -7141,14 +6411,7 @@
                       "type": "object",
                       "properties": {
                         "id": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "number"
-                            }
-                          ]
+                          "type": "number"
                         },
                         "documentId": {
                           "type": "string"
@@ -7164,14 +6427,7 @@
                         "type": "object",
                         "properties": {
                           "id": {
-                            "oneOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              }
-                            ]
+                            "type": "number"
                           },
                           "documentId": {
                             "type": "string"
@@ -7204,14 +6460,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -7222,14 +6471,7 @@
                 "type": "object",
                 "properties": {
                   "id": {
-                    "oneOf": [
-                      {
-                        "type": "string"
-                      },
-                      {
-                        "type": "number"
-                      }
-                    ]
+                    "type": "number"
                   },
                   "documentId": {
                     "type": "string"
@@ -7245,14 +6487,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -7266,14 +6501,7 @@
             "type": "object",
             "properties": {
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "number"
               },
               "documentId": {
                 "type": "string"
@@ -7289,14 +6517,7 @@
               "type": "object",
               "properties": {
                 "id": {
-                  "oneOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "number"
-                    }
-                  ]
+                  "type": "number"
                 },
                 "documentId": {
                   "type": "string"
@@ -7320,14 +6541,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -7338,14 +6552,7 @@
                   "type": "object",
                   "properties": {
                     "id": {
-                      "oneOf": [
-                        {
-                          "type": "string"
-                        },
-                        {
-                          "type": "number"
-                        }
-                      ]
+                      "type": "number"
                     },
                     "documentId": {
                       "type": "string"
@@ -7361,14 +6568,7 @@
                     "type": "object",
                     "properties": {
                       "id": {
-                        "oneOf": [
-                          {
-                            "type": "string"
-                          },
-                          {
-                            "type": "number"
-                          }
-                        ]
+                        "type": "number"
                       },
                       "documentId": {
                         "type": "string"

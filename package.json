@@ -16,8 +16,9 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.12.7",
-    "@strapi/plugin-documentation": "^5.27.0",
+    "@strapi/plugin-documentation": "5.12.7",
     "@strapi/plugin-users-permissions": "5.12.7",
+    "@strapi/provider-upload-cloudinary": "^5.40.0",
     "@strapi/strapi": "5.12.7",
     "pdf-merger-js": "^5.1.2",
     "pg": "8.8.0",
