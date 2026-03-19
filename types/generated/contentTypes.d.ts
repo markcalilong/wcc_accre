@@ -373,12 +373,13 @@ export interface ApiAcademicProgramAcademicProgram
   extends Struct.CollectionTypeSchema {
   collectionName: 'academic_programs';
   info: {
+    description: '';
     displayName: 'Academic Program';
     pluralName: 'academic-programs';
     singularName: 'academic-program';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -403,12 +404,13 @@ export interface ApiAcademicYearAcademicYear
   extends Struct.CollectionTypeSchema {
   collectionName: 'academic_years';
   info: {
+    description: '';
     displayName: 'Academic Year';
     pluralName: 'academic-years';
     singularName: 'academic-year';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -437,7 +439,7 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     singularName: 'area';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     academic_program: Schema.Attribute.Relation<
