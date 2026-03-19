@@ -1044,10 +1044,7 @@ export interface PluginUsersPermissionsUser
     draftAndPublish: false;
   };
   attributes: {
-    academic_program: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-program.academic-program'
-    >;
+    academic_program: Schema.Attribute.String;
     birthDate: Schema.Attribute.Date & Schema.Attribute.Required;
     blocked: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     confirmationToken: Schema.Attribute.String & Schema.Attribute.Private;
