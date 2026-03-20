@@ -18,6 +18,14 @@ export interface CriteriaCriteria extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
+    academic_program: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-program.academic-program'
+    >;
+    academic_year: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-year.academic-year'
+    >;
     code: Schema.Attribute.String;
     criteriaUploads: Schema.Attribute.Component<
       'uploads.criteria-uploads',

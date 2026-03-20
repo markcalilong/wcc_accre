@@ -14,16 +14,24 @@
       "type": "text"
     },
     "criteriaUploads": {
-      "displayName": "Criteria Uploads",
       "type": "component",
-      "repeatable": true,
-      "component": "uploads.criteria-uploads"
+      "component": "uploads.criteria-uploads",
+      "repeatable": true
     },
     "subcriteria": {
-      "displayName": "Subcriteria",
       "type": "component",
-      "repeatable": true,
-      "component": "subcriteria.subcriteria"
+      "component": "subcriteria.subcriteria",
+      "repeatable": true
+    },
+    "academic_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-program.academic-program"
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year"
     }
   }
 }

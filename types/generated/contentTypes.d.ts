@@ -503,14 +503,6 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     draftAndPublish: false;
   };
   attributes: {
-    academic_program: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-program.academic-program'
-    >;
-    academic_year: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-year.academic-year'
-    >;
     area: Schema.Attribute.String;
     areaCriteria: Schema.Attribute.Component<'criteria.criteria', true>;
     areaDesc: Schema.Attribute.Text;
