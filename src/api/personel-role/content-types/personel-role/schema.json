@@ -21,6 +21,11 @@
       "type": "component",
       "component": "covered-areas.role-list",
       "repeatable": true
+    },
+    "coveredPrograms": {
+      "type": "component",
+      "component": "covered-programs.covered-programs",
+      "repeatable": true
     }
   }
 }
