@@ -10,6 +10,19 @@ export interface CoveredAreasRoleList extends Struct.ComponentSchema {
   };
 }
 
+export interface CoveredProgramsCoveredPrograms extends Struct.ComponentSchema {
+  collectionName: 'components_covered_programs_covered_programs';
+  info: {
+    displayName: 'Covered Programs';
+  };
+  attributes: {
+    academic_program: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-program.academic-program'
+    >;
+  };
+}
+
 export interface CriteriaCriteria extends Struct.ComponentSchema {
   collectionName: 'components_criteria_criteria';
   info: {
@@ -109,6 +122,7 @@ declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'covered-areas.role-list': CoveredAreasRoleList;
+      'covered-programs.covered-programs': CoveredProgramsCoveredPrograms;
       'criteria.criteria': CriteriaCriteria;
       'subcriteria.subcriteria': SubcriteriaSubcriteria;
       'uploads.criteria-uploads': UploadsCriteriaUploads;

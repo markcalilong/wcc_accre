@@ -534,6 +534,10 @@ export interface ApiPersonelRolePersonelRole
   };
   attributes: {
     coveredAreas: Schema.Attribute.Component<'covered-areas.role-list', true>;
+    coveredPrograms: Schema.Attribute.Component<
+      'covered-programs.covered-programs',
+      true
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

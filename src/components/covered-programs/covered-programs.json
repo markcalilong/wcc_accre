@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_covered_programs_covered_programs",
+  "info": {
+    "displayName": "Covered Programs"
+  },
+  "options": {},
+  "attributes": {
+    "academic_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-program.academic-program"
+    }
+  },
+  "config": {}
+}
