@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_covered_areas_role_lists",
+  "info": {
+    "displayName": "Role List"
+  },
+  "options": {},
+  "attributes": {
+    "area_with_permission": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

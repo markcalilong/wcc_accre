@@ -1,5 +1,15 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface CoveredAreasRoleList extends Struct.ComponentSchema {
+  collectionName: 'components_covered_areas_role_lists';
+  info: {
+    displayName: 'Role List';
+  };
+  attributes: {
+    area_with_permission: Schema.Attribute.String;
+  };
+}
+
 export interface CriteriaCriteria extends Struct.ComponentSchema {
   collectionName: 'components_criteria_criteria';
   info: {
@@ -90,6 +100,7 @@ export interface UploadsSubcriteriaUploads extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'covered-areas.role-list': CoveredAreasRoleList;
       'criteria.criteria': CriteriaCriteria;
       'subcriteria.subcriteria': SubcriteriaSubcriteria;
       'uploads.criteria-uploads': UploadsCriteriaUploads;

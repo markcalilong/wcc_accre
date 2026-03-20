@@ -93,6 +93,11 @@
     },
     "academic_program": {
       "type": "string"
+    },
+    "personel_role": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::personel-role.personel-role"
     }
   }
 }
