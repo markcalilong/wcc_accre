@@ -529,6 +529,37 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiPersonelRolePersonelRole
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'personel_roles';
+  info: {
+    displayName: 'Personel Role';
+    pluralName: 'personel-roles';
+    singularName: 'personel-role';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    coveredAreas: Schema.Attribute.Component<'covered-areas.role-list', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::personel-role.personel-role'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    role: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiProgramProgram extends Struct.CollectionTypeSchema {
   collectionName: 'programs';
   info: {
@@ -1073,6 +1104,10 @@ export interface PluginUsersPermissionsUser
       Schema.Attribute.SetMinMaxLength<{
         minLength: 6;
       }>;
+    personel_role: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::personel-role.personel-role'
+    >;
     provider: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     resetPasswordToken: Schema.Attribute.String & Schema.Attribute.Private;
@@ -1106,6 +1141,7 @@ declare module '@strapi/strapi' {
       'api::academic-program.academic-program': ApiAcademicProgramAcademicProgram;
       'api::academic-year.academic-year': ApiAcademicYearAcademicYear;
       'api::area.area': ApiAreaArea;
+      'api::personel-role.personel-role': ApiPersonelRolePersonelRole;
       'api::program.program': ApiProgramProgram;
       'api::visit-type.visit-type': ApiVisitTypeVisitType;
       'plugin::content-releases.release': PluginContentReleasesRelease;

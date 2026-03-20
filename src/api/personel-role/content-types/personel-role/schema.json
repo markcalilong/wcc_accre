@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personel_roles",
+  "info": {
+    "singularName": "personel-role",
+    "pluralName": "personel-roles",
+    "displayName": "Personel Role"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "coveredAreas": {
+      "type": "component",
+      "component": "covered-areas.role-list",
+      "repeatable": true
+    }
+  }
+}
