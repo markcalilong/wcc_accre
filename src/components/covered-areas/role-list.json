@@ -7,6 +7,9 @@
   "attributes": {
     "area_with_permission": {
       "type": "string"
+    },
+    "allowedCriteria": {
+      "type": "text"
     }
   },
   "config": {}
