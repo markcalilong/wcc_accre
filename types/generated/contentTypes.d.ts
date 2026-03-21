@@ -521,6 +521,34 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiCampusCampus extends Struct.CollectionTypeSchema {
+  collectionName: 'campuses';
+  info: {
+    displayName: 'Campus';
+    pluralName: 'campuses';
+    singularName: 'campus';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  attributes: {
+    campusDesc: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::campus.campus'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPersonelRolePersonelRole
   extends Struct.CollectionTypeSchema {
   collectionName: 'personel_roles';
@@ -593,7 +621,7 @@ export interface ApiSemesterSemester extends Struct.CollectionTypeSchema {
     singularName: 'semester';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
@@ -1165,6 +1193,7 @@ declare module '@strapi/strapi' {
       'api::academic-program.academic-program': ApiAcademicProgramAcademicProgram;
       'api::academic-year.academic-year': ApiAcademicYearAcademicYear;
       'api::area.area': ApiAreaArea;
+      'api::campus.campus': ApiCampusCampus;
       'api::personel-role.personel-role': ApiPersonelRolePersonelRole;
       'api::program.program': ApiProgramProgram;
       'api::semester.semester': ApiSemesterSemester;

@@ -1,17 +1,17 @@
 {
   "kind": "collectionType",
-  "collectionName": "semesters",
+  "collectionName": "campuses",
   "info": {
-    "singularName": "semester",
-    "pluralName": "semesters",
-    "displayName": "Semester"
+    "singularName": "campus",
+    "pluralName": "campuses",
+    "displayName": "Campus"
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "semCode": {
+    "campusDesc": {
       "type": "string"
     }
   }
