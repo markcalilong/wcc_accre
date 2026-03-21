@@ -6,6 +6,7 @@ export interface CoveredAreasRoleList extends Struct.ComponentSchema {
     displayName: 'Role List';
   };
   attributes: {
+    allowedCriteria: Schema.Attribute.Text;
     area_with_permission: Schema.Attribute.String;
   };
 }
