@@ -585,6 +585,34 @@ export interface ApiProgramProgram extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiSemesterSemester extends Struct.CollectionTypeSchema {
+  collectionName: 'semesters';
+  info: {
+    displayName: 'Semester';
+    pluralName: 'semesters';
+    singularName: 'semester';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::semester.semester'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    semCode: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiVisitTypeVisitType extends Struct.CollectionTypeSchema {
   collectionName: 'visit_types';
   info: {
@@ -1139,6 +1167,7 @@ declare module '@strapi/strapi' {
       'api::area.area': ApiAreaArea;
       'api::personel-role.personel-role': ApiPersonelRolePersonelRole;
       'api::program.program': ApiProgramProgram;
+      'api::semester.semester': ApiSemesterSemester;
       'api::visit-type.visit-type': ApiVisitTypeVisitType;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
