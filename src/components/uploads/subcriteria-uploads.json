@@ -9,14 +9,14 @@
       "type": "string"
     },
     "fileUpload": {
+      "type": "media",
+      "multiple": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "uploader": {
       "type": "relation",
@@ -39,6 +39,11 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "semester": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::semester.semester"
     }
   }
 }

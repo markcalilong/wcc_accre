@@ -17,6 +17,11 @@
     },
     "programDesc": {
       "type": "string"
+    },
+    "program_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::program.program"
     }
   }
 }

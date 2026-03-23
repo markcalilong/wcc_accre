@@ -28,6 +28,16 @@
     },
     "remarks": {
       "type": "string"
+    },
+    "campus": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::campus.campus"
+    },
+    "visit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::visit-type.visit-type"
     }
   }
 }

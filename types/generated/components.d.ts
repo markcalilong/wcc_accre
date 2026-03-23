@@ -87,6 +87,7 @@ export interface UploadsCriteriaUploads extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     remarks: Schema.Attribute.Text;
+    semester: Schema.Attribute.Relation<'oneToOne', 'api::semester.semester'>;
     uploader: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
@@ -112,6 +113,7 @@ export interface UploadsSubcriteriaUploads extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     remarks: Schema.Attribute.Text;
+    semester: Schema.Attribute.Relation<'oneToOne', 'api::semester.semester'>;
     uploader: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
