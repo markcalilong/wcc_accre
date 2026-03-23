@@ -452,6 +452,7 @@ export interface ApiAcademicProgramAcademicProgram
       'api::academic-program.academic-program'
     > &
       Schema.Attribute.Private;
+    program_type: Schema.Attribute.Relation<'oneToOne', 'api::program.program'>;
     programCode: Schema.Attribute.String;
     programDesc: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
@@ -506,6 +507,7 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     area: Schema.Attribute.String;
     areaCriteria: Schema.Attribute.Component<'criteria.criteria', true>;
     areaDesc: Schema.Attribute.Text;
+    campus: Schema.Attribute.Relation<'oneToOne', 'api::campus.campus'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -518,6 +520,7 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    visit: Schema.Attribute.Relation<'oneToOne', 'api::visit-type.visit-type'>;
   };
 }
 
@@ -546,6 +549,10 @@ export interface ApiCampusCampus extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    user: Schema.Attribute.Relation<
+      'manyToOne',
+      'plugin::users-permissions.user'
+    >;
   };
 }
 
@@ -1130,6 +1137,7 @@ export interface PluginUsersPermissionsUser
     academic_program: Schema.Attribute.String;
     birthDate: Schema.Attribute.Date & Schema.Attribute.Required;
     blocked: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    campuses: Schema.Attribute.Relation<'oneToMany', 'api::campus.campus'>;
     confirmationToken: Schema.Attribute.String & Schema.Attribute.Private;
     confirmed: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     createdAt: Schema.Attribute.DateTime;
