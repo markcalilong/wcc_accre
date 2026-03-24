@@ -22,6 +22,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::program.program"
+    },
+    "areas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::area.area",
+      "mappedBy": "academic_program"
     }
   }
 }

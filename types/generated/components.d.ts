@@ -32,14 +32,6 @@ export interface CriteriaCriteria extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
-    academic_program: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-program.academic-program'
-    >;
-    academic_year: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::academic-year.academic-year'
-    >;
     code: Schema.Attribute.String;
     criteriaUploads: Schema.Attribute.Component<
       'uploads.criteria-uploads',
@@ -87,7 +79,6 @@ export interface UploadsCriteriaUploads extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     remarks: Schema.Attribute.Text;
-    semester: Schema.Attribute.Relation<'oneToOne', 'api::semester.semester'>;
     uploader: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
@@ -113,7 +104,6 @@ export interface UploadsSubcriteriaUploads extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     remarks: Schema.Attribute.Text;
-    semester: Schema.Attribute.Relation<'oneToOne', 'api::semester.semester'>;
     uploader: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'

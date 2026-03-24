@@ -22,16 +22,6 @@
       "type": "component",
       "component": "subcriteria.subcriteria",
       "repeatable": true
-    },
-    "academic_program": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::academic-program.academic-program"
-    },
-    "academic_year": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::academic-year.academic-year"
     }
   }
 }
