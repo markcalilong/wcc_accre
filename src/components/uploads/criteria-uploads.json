@@ -42,11 +42,6 @@
     },
     "remarks": {
       "type": "text"
-    },
-    "semester": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::semester.semester"
     }
   }
 }
