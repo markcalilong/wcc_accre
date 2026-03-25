@@ -42,6 +42,31 @@
     },
     "remarks": {
       "type": "text"
+    },
+    "campus": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::campus.campus"
+    },
+    "academic_program": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-program.academic-program"
+    },
+    "academic_year": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academic-year.academic-year"
+    },
+    "semester": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::semester.semester"
+    },
+    "visit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::visit-type.visit-type"
     }
   }
 }

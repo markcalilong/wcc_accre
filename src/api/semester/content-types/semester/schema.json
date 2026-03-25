@@ -13,12 +13,6 @@
   "attributes": {
     "semCode": {
       "type": "string"
-    },
-    "areas": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::area.area",
-      "mappedBy": "semester"
     }
   }
 }

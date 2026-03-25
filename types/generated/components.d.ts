@@ -67,10 +67,19 @@ export interface UploadsCriteriaUploads extends Struct.ComponentSchema {
     icon: 'file';
   };
   attributes: {
+    academic_program: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-program.academic-program'
+    >;
+    academic_year: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-year.academic-year'
+    >;
     approver: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
     >;
+    campus: Schema.Attribute.Relation<'oneToOne', 'api::campus.campus'>;
     fileName: Schema.Attribute.String;
     fileStatus: Schema.Attribute.Enumeration<
       ['On-going Review', 'Reviewed', 'Approved', 'Declined']
@@ -79,10 +88,12 @@ export interface UploadsCriteriaUploads extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     remarks: Schema.Attribute.Text;
+    semester: Schema.Attribute.Relation<'oneToOne', 'api::semester.semester'>;
     uploader: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
     >;
+    visit: Schema.Attribute.Relation<'oneToOne', 'api::visit-type.visit-type'>;
   };
 }
 
@@ -92,10 +103,19 @@ export interface UploadsSubcriteriaUploads extends Struct.ComponentSchema {
     displayName: 'Subcriteria Uploads';
   };
   attributes: {
+    academic_program: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-program.academic-program'
+    >;
+    academic_year: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::academic-year.academic-year'
+    >;
     approver: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
     >;
+    campus: Schema.Attribute.Relation<'oneToOne', 'api::campus.campus'>;
     fileName: Schema.Attribute.String;
     fileStatus: Schema.Attribute.Enumeration<
       ['On-going Review', 'Reviewed', 'Approved', 'Declined']
@@ -104,10 +124,12 @@ export interface UploadsSubcriteriaUploads extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     remarks: Schema.Attribute.Text;
+    semester: Schema.Attribute.Relation<'oneToOne', 'api::semester.semester'>;
     uploader: Schema.Attribute.Relation<
       'oneToOne',
       'plugin::users-permissions.user'
     >;
+    visit: Schema.Attribute.Relation<'oneToOne', 'api::visit-type.visit-type'>;
   };
 }
 

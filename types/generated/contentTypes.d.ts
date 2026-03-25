@@ -443,7 +443,6 @@ export interface ApiAcademicProgramAcademicProgram
     draftAndPublish: false;
   };
   attributes: {
-    areas: Schema.Attribute.Relation<'oneToMany', 'api::area.area'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -476,7 +475,6 @@ export interface ApiAcademicYearAcademicYear
     draftAndPublish: false;
   };
   attributes: {
-    areas: Schema.Attribute.Relation<'oneToMany', 'api::area.area'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -506,14 +504,6 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     draftAndPublish: false;
   };
   attributes: {
-    academic_program: Schema.Attribute.Relation<
-      'manyToOne',
-      'api::academic-program.academic-program'
-    >;
-    academic_year: Schema.Attribute.Relation<
-      'manyToOne',
-      'api::academic-year.academic-year'
-    >;
     area: Schema.Attribute.String;
     areaCriteria: Schema.Attribute.Component<'criteria.criteria', true>;
     areaDesc: Schema.Attribute.Text;
@@ -527,11 +517,9 @@ export interface ApiAreaArea extends Struct.CollectionTypeSchema {
     proposedExhibits: Schema.Attribute.Text;
     publishedAt: Schema.Attribute.DateTime;
     remarks: Schema.Attribute.String;
-    semester: Schema.Attribute.Relation<'manyToOne', 'api::semester.semester'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    visit: Schema.Attribute.Relation<'oneToOne', 'api::visit-type.visit-type'>;
   };
 }
 
@@ -642,7 +630,6 @@ export interface ApiSemesterSemester extends Struct.CollectionTypeSchema {
     draftAndPublish: false;
   };
   attributes: {
-    areas: Schema.Attribute.Relation<'oneToMany', 'api::area.area'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -15,12 +15,6 @@
     "schoolyear": {
       "type": "string",
       "required": true
-    },
-    "areas": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::area.area",
-      "mappedBy": "academic_year"
     }
   }
 }
