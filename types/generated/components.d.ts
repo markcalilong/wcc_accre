@@ -38,6 +38,7 @@ export interface CriteriaCriteria extends Struct.ComponentSchema {
       true
     >;
     desc: Schema.Attribute.Text;
+    programs: Schema.Attribute.String;
     subcriteria: Schema.Attribute.Component<'subcriteria.subcriteria', true>;
   };
 }

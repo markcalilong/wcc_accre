@@ -22,6 +22,9 @@
       "type": "component",
       "component": "subcriteria.subcriteria",
       "repeatable": true
+    },
+    "programs": {
+      "type": "string"
     }
   }
 }
